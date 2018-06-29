@@ -13,6 +13,9 @@
 		B64D7F5E20E669E8007D4DC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B64D7F5D20E669E8007D4DC9 /* Assets.xcassets */; };
 		B64D7F6120E669E8007D4DC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64D7F5F20E669E8007D4DC9 /* LaunchScreen.storyboard */; };
 		B64D7F6420E669E8007D4DC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B64D7F6320E669E8007D4DC9 /* main.m */; };
+		B64D7F6C20E66A18007D4DC9 /* Strategy.m in Sources */ = {isa = PBXBuildFile; fileRef = B64D7F6B20E66A18007D4DC9 /* Strategy.m */; };
+		B64D7F6F20E66B2F007D4DC9 /* Worker.m in Sources */ = {isa = PBXBuildFile; fileRef = B64D7F6E20E66B2F007D4DC9 /* Worker.m */; };
+		B64D7F7220E66B41007D4DC9 /* Farmer.m in Sources */ = {isa = PBXBuildFile; fileRef = B64D7F7120E66B41007D4DC9 /* Farmer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		B64D7F6020E669E8007D4DC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B64D7F6220E669E8007D4DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B64D7F6320E669E8007D4DC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B64D7F6A20E66A18007D4DC9 /* Strategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Strategy.h; sourceTree = "<group>"; };
+		B64D7F6B20E66A18007D4DC9 /* Strategy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Strategy.m; sourceTree = "<group>"; };
+		B64D7F6D20E66B2F007D4DC9 /* Worker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Worker.h; sourceTree = "<group>"; };
+		B64D7F6E20E66B2F007D4DC9 /* Worker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Worker.m; sourceTree = "<group>"; };
+		B64D7F7020E66B41007D4DC9 /* Farmer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Farmer.h; sourceTree = "<group>"; };
+		B64D7F7120E66B41007D4DC9 /* Farmer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Farmer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,12 @@
 				B64D7F5520E669E6007D4DC9 /* AppDelegate.m */,
 				B64D7F5720E669E6007D4DC9 /* ViewController.h */,
 				B64D7F5820E669E6007D4DC9 /* ViewController.m */,
+				B64D7F6A20E66A18007D4DC9 /* Strategy.h */,
+				B64D7F6B20E66A18007D4DC9 /* Strategy.m */,
+				B64D7F6D20E66B2F007D4DC9 /* Worker.h */,
+				B64D7F6E20E66B2F007D4DC9 /* Worker.m */,
+				B64D7F7020E66B41007D4DC9 /* Farmer.h */,
+				B64D7F7120E66B41007D4DC9 /* Farmer.m */,
 				B64D7F5A20E669E6007D4DC9 /* Main.storyboard */,
 				B64D7F5D20E669E8007D4DC9 /* Assets.xcassets */,
 				B64D7F5F20E669E8007D4DC9 /* LaunchScreen.storyboard */,
@@ -141,9 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B64D7F6C20E66A18007D4DC9 /* Strategy.m in Sources */,
 				B64D7F5920E669E6007D4DC9 /* ViewController.m in Sources */,
 				B64D7F6420E669E8007D4DC9 /* main.m in Sources */,
 				B64D7F5620E669E6007D4DC9 /* AppDelegate.m in Sources */,
+				B64D7F7220E66B41007D4DC9 /* Farmer.m in Sources */,
+				B64D7F6F20E66B2F007D4DC9 /* Worker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
